@@ -165,6 +165,6 @@ string1[start:stop:interval]
 >>> string1[::2]
 '02468'
 
-Hello
+Hello I am going to write in dev branch
 
 '''
