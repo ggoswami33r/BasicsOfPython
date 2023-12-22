@@ -165,4 +165,6 @@ string1[start:stop:interval]
 >>> string1[::2]
 '02468'
 
+Hello
+
 '''
