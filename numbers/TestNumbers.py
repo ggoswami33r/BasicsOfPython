@@ -4,7 +4,7 @@ print(min(1,2))
 print(pow(3,2))
 
 
-print(bool(None))  # woule return to false
+print(bool(None))  # would return to false
 print(bool(""))
 print(bool(0.00))
 print(bool(0))
