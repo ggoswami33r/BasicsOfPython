@@ -1,0 +1,31 @@
+$ git config --global user.name "ggoswami33"
+
+to add anything into a branch
+git init
+git add .
+git commit -m "comment message"
+git push origin dev-branch
+
+
+to merge the code into main branch from dev-branch
+first go to main branch
+
+git checkout main
+then run the below command
+
+git merge -m "commit message" source branch
+git merge -m "commit message" dev-branch  -- its actually merging the code into main branch from dev-branch
+
+
+to do the update branch
+git update "update-git-for-windows"
+
+
+to checkout any branch
+git checkout main
+git checkout dev-branch
+
+
+to get the update from the current branch from remote branch
+git merge origin/dev-branch
+git merge origin/main
