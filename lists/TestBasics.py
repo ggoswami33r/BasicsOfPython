@@ -13,6 +13,8 @@ print(list1);
 
 list2 = [1,4,6];
 
+
+
 # to get the minimum entry from the above list we need to use min()
 
 print(min(list2));
