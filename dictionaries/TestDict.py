@@ -95,5 +95,18 @@ if you use keys or values or items the same key / item(keys:values) would be pri
 >>> 
 >>> type(list(dict1.items()))
 <class 'list'>
+>>>
+
+
+dict1[4] = "This is the 4th values"
+
+>>> dict1[2] = "This is second values is getting added"
 >>> 
+>>> 
+>>> dict1
+{1: 'This is the first value', 2: 'This is second values is getting added'}
+
+
+
+values can also be added in the above way 
 """
