@@ -1,0 +1,5 @@
+#for upgrading the pip manager
+python -m pip install --upgrade pip
+
+#to install openpyxl
+python -m pip install openpyxl
