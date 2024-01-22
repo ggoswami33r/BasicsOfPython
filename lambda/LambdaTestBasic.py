@@ -140,3 +140,24 @@ list3 = lambda x: [x*3 for x in range(10) if x>5]
 >>> list3(0)
 [18, 21, 24, 27]
 >>>
+
+
+>>> r1 = range(10)
+>>>
+>>> def product10(a):
+	return a*10;
+
+>>>
+>>> r1 = range(10)
+>>>
+>>> list(map(product10, r1))
+[0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+>>>
+>>>
+>>>
+>>> list(map(lambda a : a*10, r1))
+[0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+>>>
+
+list(filter(lambda a: a>5, r1))
+[6, 7, 8, 9]
