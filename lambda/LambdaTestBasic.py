@@ -161,3 +161,12 @@ list3 = lambda x: [x*3 for x in range(10) if x>5]
 
 list(filter(lambda a: a>5, r1))
 [6, 7, 8, 9]
+
+
+def my_gen(x, y):
+	for i in range(10):
+		print("i is %d" % i);
+		print("y is %d" % y);
+		yield x * y;
+
+
